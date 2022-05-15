@@ -1,5 +1,65 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
+<style>
+h1 {
+color: black;
+box-shadow: #500e0e 0 0 20px 0px;
+background-color: #ffd700b8;
+padding: 10px;
+text-align: center;
+}
+
+
+h2{
+color: black;
+box-shadow: #500e0e 0 0 20px 0px;
+background-color: #ffd700b8;
+padding: 10px;
+text-align: center;
+}
+
+
+
+
+input[type=text], select {
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+}
+
+
+
+input[type=submit] {
+width: 100%;
+background-color: #4CAF50;
+color: white;
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+
+
+input[type=submit]:hover {
+background-color: #45a049;
+}
+
+
+
+div {
+border-radius: 5px;
+background-color: #6748481c;
+padding: 20px;
+}
+
+
+</style>
 <head>
 	<meta charset="UTF-8">
 	<title>Customer Inquiry</title>
@@ -16,7 +76,7 @@
 		
 <br>
 <p></p>
-	                    <div>Inquiry List</div>
+	                    <h1>Inquiry List</h1>
 	                    <div>
 	                        <div id="inquiryDiv">
 	                    	
@@ -25,6 +85,7 @@
 	                    
 	                   
 <div id="hideDiv" style="display: none">
+	<h2>Edit Inquiry</h2>
     <form id="inquiry">
     <input type="hidden" id="edit_id" name="edit_id">
            <div>
@@ -97,9 +158,7 @@
 	                            </div>
           
           <div>
-              <button type="submit" class="btn btn-success">
-                  Edit
-              </button>
+              <input type="submit" value="Edit">
           </div>
   	</form>
 </div> 

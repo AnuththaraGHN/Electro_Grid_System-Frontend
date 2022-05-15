@@ -1,5 +1,60 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
+<link
+href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+rel="stylesheet"
+integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+crossorigin="anonymous">
+
+<style>
+.row{
+margin-top: 2em;
+}
+.heading{
+margin-top: 0.5em;
+}
+
+
+
+h1 {
+color: black;
+box-shadow: #500e0e 0 0 20px 0px;
+background-color: #ffd700b8;
+padding: 10px;
+text-align: center;
+}
+
+
+.button2 {
+padding: 11px 115px;
+background-color: #0d6efd;
+margin-left: 37%;
+margin-top: 5%;
+color: white;
+}
+
+div {
+border-radius: 5px;
+background-color: #6748481c;
+padding: 20px;
+}
+
+
+
+.button3 {
+padding: 11px 104px;
+background-color: #4caf50;
+margin-left: 8%;
+margin-top: 5%;
+color: white;
+}
+
+a {
+color: #ffffff;
+text-decoration: underline;
+}
+
+</style>
 <head>
 	<meta charset="UTF-8">
 	<title>Customer Inquiry</title>
@@ -16,7 +71,7 @@
 <br>
 <p></p>
 
-	                    <div>Inquiry List</div>
+	                    <h1>Inquiry List</h1>
 	                        <form id="inquiry">
 	                            <div>
 	                                <label>Account ID</label>
@@ -88,12 +143,14 @@
 	                            </div>
 	                            
 	                            <div>
-	                                <button type="submit" class="btn btn-success">
-	                                    Add
-	                                </button>
-	                                <a href="edit_n_delete.jsp" class="btn btn-success">
-	                                    List
-	                                </a>
+	                                <button class="button3" type="submit" class="btn btn-success">
+										Submit Inquiry
+										</button >
+										<button class="button2" >
+										<a href="edit_n_delete.jsp" >
+										View Inquiry List
+										</a>
+										</button>
 	                            </div>
 	                    	</form>
 	                    </div>
